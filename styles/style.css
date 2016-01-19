@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.main_wrapper {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: black;
+}
+
+.header_wrapper {
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#banner {
+    width: 840px;
+    height: 150px;
+    float: right;
+}
+
+.navbar {
+    width: 1000px;
+    height: 50px;
+    background-color: green;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+#menu a:hover {
+    color: orange;
+    font-weight: bolder;
+}
+
+#form {
+    float: right;
+    padding-right: 8px;
+    line-height: 40px;
+}
+
+.content_wrapper {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: pink;
+}
+
+#content_area {
+    width: 800px;
+    float: right;
+    background-color: pink;
+}
+
+#sidebar {
+    width: 200px;
+    background-color: black;
+    float: left;
+}
+
+#sidebar_title {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    padding: 8px;
+    text-align: center;
+}
+
+#cats {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#cats li {
+    list-style: none;
+    display: block;
+    padding: 5px;
+}
+
+#cats a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#cats a:hover {
+    color: orange;
+    font-weight: bolder;
+}
+
+#products_box {
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#single_product {
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+#single_product img {
+    border: 2px solid black;
+}
+
+#shopping_cart {
+    width: 800px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+}
+
+#footer {
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+    clear: both;
+}
